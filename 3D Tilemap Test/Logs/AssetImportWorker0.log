@@ -1,0 +1,373 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+S:\Program Files\Unity Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+S:/Program Files/Unity Projects/3D Tilemap Test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51335
+Successfully changed project path to: S:/Program Files/Unity Projects/3D Tilemap Test
+S:/Program Files/Unity Projects/3D Tilemap Test
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 92.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path S:/Program Files/Unity Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path S:/Program Files/Unity Projects/3D Tilemap Test/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   30.0.14.9613
+Initialize mono
+Mono path[0] = 'S:/Program Files/Unity Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'S:/Program Files/Unity Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'S:/Program Files/Unity Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: S:/Program Files/Unity Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001257 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 94.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.304 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1304ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (506ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (236ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003698 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 96.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.698 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1699ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1459ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (391ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (731ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (294ms)
+				ProcessInitializeOnLoadMethodAttributes (220ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4025 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.4 MB.
+System memory in use after: 201.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4488.
+Total: 6.565500 ms (FindLiveObjects: 0.738500 ms CreateObjectMapping: 0.282600 ms MarkObjects: 5.340800 ms  DeleteObjects: 0.200900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileData.cs
+  artifactKey: Guid(7a1c6faf933b78c4f89a51d91e901862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileData.cs using Guid(7a1c6faf933b78c4f89a51d91e901862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845797c5f85739258d83169fad98602c') in 0.081395 seconds 
+  Import took 0.090085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileMap.cs
+  artifactKey: Guid(d44dc403755a2a94385e8e92fe8b00c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileMap.cs using Guid(d44dc403755a2a94385e8e92fe8b00c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc52481c8da47edac0439cf76e41cda5') in 0.008592 seconds 
+  Import took 0.015274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.239157 seconds.
+  path: Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileMapUtility.cs
+  artifactKey: Guid(f7d668b6a6e444b4b90a34cc7c76dadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileMapUtility.cs using Guid(f7d668b6a6e444b4b90a34cc7c76dadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81c4a76dc7ae851a79785f4450b5849') in 0.010739 seconds 
+  Import took 0.019957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029768 seconds.
+  path: Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileMapUtility.cs
+  artifactKey: Guid(f7d668b6a6e444b4b90a34cc7c76dadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileMapUtility.cs using Guid(f7d668b6a6e444b4b90a34cc7c76dadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81c4a76dc7ae851a79785f4450b5849') in 0.003544 seconds 
+  Import took 0.012449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.459305 seconds.
+  path: Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileObject.cs
+  artifactKey: Guid(c1cd43a7a75921e40af5ff72e8d26d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileObject.cs using Guid(c1cd43a7a75921e40af5ff72e8d26d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b0f6731ef7eba4e7aaa51edef8ebbc') in 0.006983 seconds 
+  Import took 0.013838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003766 seconds.
+  path: Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileObject.cs
+  artifactKey: Guid(c1cd43a7a75921e40af5ff72e8d26d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileObject.cs using Guid(c1cd43a7a75921e40af5ff72e8d26d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b0f6731ef7eba4e7aaa51edef8ebbc') in 0.003072 seconds 
+  Import took 0.009719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.982637 seconds.
+  path: Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileObject.cs
+  artifactKey: Guid(c1cd43a7a75921e40af5ff72e8d26d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileObject.cs using Guid(c1cd43a7a75921e40af5ff72e8d26d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd4679c9b666b84285cac50b8d43b9b') in 0.003332 seconds 
+  Import took 0.010422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.919020 seconds.
+  path: Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileObject.cs
+  artifactKey: Guid(c1cd43a7a75921e40af5ff72e8d26d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileObject.cs using Guid(c1cd43a7a75921e40af5ff72e8d26d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846886f7294c5f5816b2cd985f0ae35e') in 0.003524 seconds 
+  Import took 0.010633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.691003 seconds.
+  path: Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileObject.cs
+  artifactKey: Guid(c1cd43a7a75921e40af5ff72e8d26d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileObject.cs using Guid(c1cd43a7a75921e40af5ff72e8d26d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5525fa7550881058f817bea676176525') in 0.003775 seconds 
+  Import took 0.011475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.480434 seconds.
+  path: Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileObject.cs
+  artifactKey: Guid(c1cd43a7a75921e40af5ff72e8d26d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/TileObject.cs using Guid(c1cd43a7a75921e40af5ff72e8d26d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849b28f046091f014ca0971744fbac41') in 0.002940 seconds 
+  Import took 0.009394 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003952 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.363 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1363ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1149ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (402ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3729 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.7 MB.
+System memory in use after: 184.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4490.
+Total: 4.709800 ms (FindLiveObjects: 0.499700 ms CreateObjectMapping: 0.115600 ms MarkObjects: 3.984300 ms  DeleteObjects: 0.108800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 402.482394 seconds.
+  path: Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/Editor Scripts/TilemapEditorWindow.cs
+  artifactKey: Guid(74cac317db491994abef54365858ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/Editor Scripts/TilemapEditorWindow.cs using Guid(74cac317db491994abef54365858ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea18777bf0c23f29816649597905af2') in 0.013851 seconds 
+  Import took 0.021482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.605954 seconds.
+  path: Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/Editor Scripts/TilemapEditorWindow.cs
+  artifactKey: Guid(74cac317db491994abef54365858ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/Editor Scripts/TilemapEditorWindow.cs using Guid(74cac317db491994abef54365858ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6170b8cafd85de771ef35cf60ff405f') in 0.003534 seconds 
+  Import took 0.011047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.821197 seconds.
+  path: Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/Editor Scripts/TilemapEditorWindow.cs
+  artifactKey: Guid(74cac317db491994abef54365858ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/Editor Scripts/TilemapEditorWindow.cs using Guid(74cac317db491994abef54365858ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36118cad135534dc3a26438c36bc80bd') in 0.003087 seconds 
+  Import took 0.009960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.515835 seconds.
+  path: Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/Editor Scripts/TilemapEditorWindow.cs
+  artifactKey: Guid(74cac317db491994abef54365858ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/Editor Scripts/TilemapEditorWindow.cs using Guid(74cac317db491994abef54365858ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb0fc553412862b00b2e92be1149dcc') in 0.003112 seconds 
+  Import took 0.009521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.326312 seconds.
+  path: Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/Editor Scripts/TilemapEditorWindow.cs
+  artifactKey: Guid(74cac317db491994abef54365858ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/Editor Scripts/TilemapEditorWindow.cs using Guid(74cac317db491994abef54365858ece4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e47a893573f8f6d0bcd8ce76aa601a0') in 0.003212 seconds 
+  Import took 0.009752 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004737 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.361 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1361ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1153ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (414ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (292ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3729 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.8 MB.
+System memory in use after: 185.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 4492.
+Total: 5.353900 ms (FindLiveObjects: 0.528800 ms CreateObjectMapping: 0.198500 ms MarkObjects: 4.480700 ms  DeleteObjects: 0.143900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 252.569849 seconds.
+  path: Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/Editor Scripts/TileMap Inspector.cs
+  artifactKey: Guid(ea04fbaa3516c9845b257b6be1bfa423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Tools/3D Tilemap Editor [Deprecate]/Scripts/Editor Scripts/TileMap Inspector.cs using Guid(ea04fbaa3516c9845b257b6be1bfa423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385064d423d0a6465bcc480eea2bea43') in 0.014389 seconds 
+  Import took 0.022342 seconds .
+
